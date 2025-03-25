@@ -33,7 +33,7 @@ namespace CPUFramework
                 SqlDataReader dr = cmd.ExecuteReader();
                 dt.Load(dr);
             }
-            //SetAllColumnsAllowNull(dt);
+            SetAllcolumnsAllowNull(dt);
             return dt;
         }
 
