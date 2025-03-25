@@ -22,5 +22,19 @@ namespace CPUFramework
             dt.Load(dr);
             return dt;
         }
+
+        public static SqlCommand GetSqlCommand(string sprocname)
+        {
+            DataTable dt = new();
+            SqlCommand cmd = new SqlCommand(sprocname);
+            cmd.CommandType = CommandType.StoredProcedure;
+            return cmd;
+        }
+
+        public static SqlCommand GetTable(SqlCommand cmd)
+        {
+            SqlConnection conn = new SqlConnection(SQLUtility.ConnectionString);
+
+        }
     }
 }
