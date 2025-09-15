@@ -1,7 +1,6 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 using System.Diagnostics;
-using System.Reflection.Metadata;
 using System.Text;
 
 namespace CPUFramework
