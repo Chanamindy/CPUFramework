@@ -21,8 +21,7 @@ namespace CPUFramework
             }
             return cmd;
         }
-
-        
+                
         public static DataTable GetDataTable(SqlCommand cmd)
         {
             return DoExecuteSQL(cmd, true);
