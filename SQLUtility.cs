@@ -9,6 +9,7 @@ namespace CPUFramework
     {
         public static string ConnectionString = "";
 
+
         public static SqlCommand GetSqlCommand(string sprocname)
         {
             SqlCommand cmd;
